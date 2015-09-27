@@ -20,7 +20,7 @@ makeCacheMatrix <- function(x = matrix()) {
 }
 
 
-## cacheSolve       solve the inverse of a list object returned by
+## cacheSolve       solve the inverse of the martrix int the list object returned by
 ##                  makeCacheMatrix. If the inverse is already solved for the
 ##                  matrix, the cached result will be returned, else, the inverse
 ##                  will be solved and stored in cache.
